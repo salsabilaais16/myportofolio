@@ -146,7 +146,7 @@
       </div>
 
       <div class="project-card" data-reveal="up" style="transition-delay:0.15s">
-        <a href="https://salsabilaais16.github.io/tugas3enviroment/" class="img-wrap">
+        <a href="https://salsabilaais16.github.io/tugas3enviroment/" class="img-wrap" target="_blank">
           <img src="asset/tgss3landingpage.jpeg" alt="Project 3">
         </a>
         <h3>Project 3</h3>
@@ -188,16 +188,18 @@
 
     <form
       class="contact-form"
-      action="https://formsubmit.co/salsabila.p25117@satamail.my.id"
+      action="https://api.web3forms.com/submit"
       method="POST"
       data-reveal="right"
     >
+    <input type="hidden" name="access_key" value="fe3e4910-697b-4f3a-9137-cb603d636def">
+    <input type="hidden" name="redirect" value="">
       <div class="form-row">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
+        <input type="text" name="name"  placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
       </div>
-      <input type="text" placeholder="Subject" required>
-      <textarea placeholder="Message"></textarea>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" placeholder="Message" required></textarea>
       <button type="submit" class="main-btn">Send Message</button>
     </form>
 
