@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salsabila Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav>
+  <div class="container navbar">
+    <div class="logo"><img src="asset/logonav.png" alt="Logo"></div>
+    <ul class="nav-menu" id="menu">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#project">Project</a></li>
+    </ul>
+    <a href="#contact" class="contact-btn">Contact</a>
+    <div class="menu-toggle" id="toggle"><i class="bi bi-list"></i></div>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero" id="home">
+  <div class="container hero-content">
+
+    <div class="hero-text" data-reveal="left">
+      <h4>Hello, I'm</h4>
+      <h1><span id="typed-text"></span></h1>
+      <h3 id="role-text">UI/UX Designer</h3>
+      <p>I build modern and responsive websites with clean design and smooth user experience.</p>
+      <a href="#project" class="main-btn">View Project</a>
+    </div>
+
+    <div class="hero-image" data-reveal="right">
+      <script type="module" src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"></script>
+      <spline-viewer url="https://prod.spline.design/DOSICnqLwW0176S6/scene.splinecode"></spline-viewer>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section class="about" id="about">
+  <div class="container about-content">
+
+    <div class="about-img" data-reveal="left">
+      <div class="oval-wrap">
+        <img src="asset/ftaboutme.jpeg" alt="Salsabila">
+      </div>
+    </div>
+
+    <div class="about-text" data-reveal="right">
+      <h2 class="section-title">About Me</h2>
+      <p>Hi! I'm Salsabila Nur Aisyah, a vocational high school student majoring in Software Engineering. I'm currently diving into front-end development and UI/UX design using Figma.</p>
+      <p>I've had a few practice projects and really enjoy creating designs that are both attractive and functional. My goal is to keep improving, both in designing and coding, so my work can be enjoyed by many people.</p>
+      <a href="https://salsabilaais16.github.io/experience/" class="main-btn">Experience</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section class="skills" id="skills">
+  <div class="container">
+    <h2 class="section-title" style="text-align:center;" data-reveal="up">My Skills</h2>
+    <div class="skill-grid">
+
+      <div class="skill-card" data-reveal="up" style="transition-delay:0.05s">
+        <div class="icon-wrap"><img src="asset/html.png" alt="HTML"></div>
+        <div class="skill-body">
+          <div class="skill-info"><h4>HTML</h4><span>70%</span></div>
+          <div class="progress"><span style="width:70%"></span></div>
+        </div>
+      </div>
+
+      <div class="skill-card" data-reveal="up" style="transition-delay:0.1s">
+        <div class="icon-wrap"><img src="asset/css.png" alt="CSS"></div>
+        <div class="skill-body">
+          <div class="skill-info"><h4>CSS</h4><span>60%</span></div>
+          <div class="progress"><span style="width:60%"></span></div>
+        </div>
+      </div>
+
+      <div class="skill-card" data-reveal="up" style="transition-delay:0.15s">
+        <div class="icon-wrap"><img src="asset/js.png" alt="JavaScript"></div>
+        <div class="skill-body">
+          <div class="skill-info"><h4>JavaScript</h4><span>50%</span></div>
+          <div class="progress"><span style="width:50%"></span></div>
+        </div>
+      </div>
+
+      <div class="skill-card" data-reveal="up" style="transition-delay:0.2s">
+        <div class="icon-wrap"><img src="asset/figma.png" alt="Figma"></div>
+        <div class="skill-body">
+          <div class="skill-info"><h4>Figma</h4><span>70%</span></div>
+          <div class="progress"><span style="width:70%"></span></div>
+        </div>
+      </div>
+
+      <div class="skill-card" data-reveal="up" style="transition-delay:0.25s">
+        <div class="icon-wrap"><img src="asset/bootstrap.png" alt="Bootstrap"></div>
+        <div class="skill-body">
+          <div class="skill-info"><h4>Bootstrap</h4><span>40%</span></div>
+          <div class="progress"><span style="width:40%"></span></div>
+        </div>
+      </div>
+
+      <div class="skill-card" data-reveal="up" style="transition-delay:0.3s">
+        <div class="icon-wrap"><img src="asset/tailwind.png" alt="Tailwind"></div>
+        <div class="skill-body">
+          <div class="skill-info"><h4>Tailwind</h4><span>40%</span></div>
+          <div class="progress"><span style="width:40%"></span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECT ── -->
+<section class="project" id="project">
+  <div class="container">
+    <h2 class="section-title" style="text-align:center;" data-reveal="up">My Projects</h2>
+    <div class="project-grid">
+
+      <div class="project-card" data-reveal="up" style="transition-delay:0.05s">
+        <a href="https://zahrorahmadan-cpu.github.io/recycleproject/" class="img-wrap" target="_blank">
+          <img src="asset/tgs1landingpage.jpeg" alt="Project 1">
+        </a>
+        <h3>Project 1</h3>
+      </div>
+
+      <div class="project-card" data-reveal="up" style="transition-delay:0.1s">
+        <a href="https://salsabilaais16.github.io/BootStrapp/" class="img-wrap" target="_blank">
+          <img src="asset/tgs2landingpage.jpeg" alt="Project 2">
+        </a>
+        <h3>Project 2</h3>
+      </div>
+
+      <div class="project-card" data-reveal="up" style="transition-delay:0.15s">
+        <a href="https://salsabilaais16.github.io/tugas3enviroment/" class="img-wrap">
+          <img src="asset/tgss3landingpage.jpeg" alt="Project 3">
+        </a>
+        <h3>Project 3</h3>
+      </div>
+
+      <div class="project-card" data-reveal="up" style="transition-delay:0.2s">
+        <a href="https://salsabilaais16.github.io/tugas4web/" class="img-wrap" target="_blank">
+          <img src="asset/tgs4landingpage.jpeg" alt="Project 4">
+        </a>
+        <h3>Project 4</h3>
+      </div>
+
+      <div class="project-card" data-reveal="up" style="transition-delay:0.25s">
+        <a href="https://salsabilaais16.github.io/tugas5/" class="img-wrap" target="_blank">
+          <img src="asset/tgs5landingpage.jpeg" alt="Project 5">
+        </a>
+        <h3>Project 5</h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section class="contact" id="contact">
+  <div class="container contact-content">
+
+    <div class="contact-left" data-reveal="left">
+      <h4 class="section-title">Contact Me</h4>
+      <h2>Let's work together!</h2>
+      <p>Feel free to contact me for any<br>project or collaboration.</p>
+      <a href="https://wa.me/6283197467611" class="contact-link">
+        <i class="bi bi-whatsapp"></i> +62 831 9746 7611
+      </a>
+      <a href="mailto:salsabila.p25117@satamail.my.id" class="contact-link">
+        <i class="bi bi-envelope"></i> salsabila.p25117@satamail.my.id
+      </a>
+    </div>
+
+    <form
+      class="contact-form"
+      action="https://formsubmit.co/salsabila.p25117@satamail.my.id"
+      method="POST"
+      data-reveal="right"
+    >
+      <div class="form-row">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+      </div>
+      <input type="text" placeholder="Subject" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit" class="main-btn">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="container footer-grid">
+
+    <div class="footer-col" data-reveal="up">
+      <img src="asset/logonav.png" alt="Logo">
+      <p>Thanks for visiting my portfolio. Let's create something amazing together.</p>
+    </div>
+
+    <div class="footer-col" data-reveal="up" style="transition-delay:0.1s">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skill</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col" data-reveal="up" style="transition-delay:0.2s">
+      <h3>Contact Info</h3>
+      <a href="mailto:salsabila.p25117@satamail.my.id">salsabila.p25117@satamail.my.id</a>
+      <a href="https://wa.me/6283197467611">+62 831 9746 7611</a>
+      <a href="https://maps.google.com">Semarang, Indonesia</a>
+    </div>
+
+    <div class="footer-col" data-reveal="up" style="transition-delay:0.3s">
+      <h3>Follow Me</h3>
+      <div class="socials">
+        <a href="https://www.instagram.com/slssalsa__?igsh=Z2MxaGo1cWw0ampn" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/salsabilaais16" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.tiktok.com/slsasal4?_r=1&_t=ZS-96Nhr2sYVW4" target="_blank"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+
+  </div>
+  <div class="copyright">© 2026 Salsabila. All Rights Reserved</div>
+</footer>
+
+<!-- ── JAVASCRIPT ── -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
